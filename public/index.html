@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Nautilus</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <div class="text-center">
+                    <img src="./im/nautilus.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+                <h6 class="card-subtitle mb-2 text-muted">Please choose a marine location to begin.</h6>
+                
+                <!--Google map-->
+                <div id="map"></div>
+                <!-- Replace the value of the key parameter with your own API key. -->
+                <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUuLs1Im_b5BOB4X9TpuLpID4GeMl6rkI&callback=initMap">
+                </script>
+                                
+                <form action="/" method="post">
+                    <input id="email" type="text" name="email">
+                    <input id="submit" type="submit" name="submit">
+                </form>
+                <img src="./im/pwdby.png" class="rounded float-right" alt="Responsive image">
+
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="./js/build.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+</body>
+</html>

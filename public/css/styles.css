@@ -1,0 +1,21 @@
+html, body {
+  height: 100%; }
+
+body {
+  display: flex;
+  align-items: center; 
+  background-image: url("../im/bg4.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#map {
+  height: 500px; 
+}
