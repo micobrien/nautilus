@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 app.listen(3000, function() {
-    console.log("listen to andre 3000");
+    console.log("Listen to 3000");
 });
 
 app.post('/weather', function(req, res) {
@@ -35,7 +35,7 @@ function addWeatherData(id, name, req, res) {
     var locationid = id;
     var urlend = '/weather.json';
     var urlfinal = urlstart + locationid + urlend;
-    console.log(urlfinal);
+    //console.log(urlfinal);
 
     var options = { method: 'GET',
     url: urlfinal,
@@ -48,7 +48,7 @@ function addWeatherData(id, name, req, res) {
     request(options, function (error, response, body) {
         console.log('Getting Weather Report: ' + name);
         res.send(body);
-    //if (error) throw new Error(error);
+    if (error) throw new Error(error);
     //console.log(body);
     });
 }
@@ -72,7 +72,7 @@ function addWildlifeData(latin, lonin, req, res) {
     request(options, function (error, response, body) {
         console.log('Getting Species List: ' + latin + ', ' + lonin);
         res.send(body);
-    //if (error) throw new Error(error);
+    if (error) throw new Error(error);
     //console.log(body);
     });
 }

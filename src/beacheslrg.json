@@ -1,16 +1,5 @@
 [
     {
-        "id": 5391,
-        "name": "Airlie Beach",
-        "region": "Mackay",
-        "state": "QLD",
-        "postcode": "4802",
-        "timeZone": "Australia/Brisbane",
-        "lat": -20.26787,
-        "lng": 148.71622,
-        "typeId": 16
-    },
-    {
         "id": 6972,
         "name": "Rainbow Beach",
         "region": "Sunshine Coast",
@@ -20,17 +9,6 @@
         "lat": -25.90213,
         "lng": 153.09218,
         "typeId": 2
-    },
-    {
-        "id": 7127,
-        "name": "Nudgee Beach",
-        "region": "Brisbane",
-        "state": "QLD",
-        "postcode": "4014",
-        "timeZone": "Australia/Brisbane",
-        "lat": -27.34749,
-        "lng": 153.10555,
-        "typeId": 14
     },
     {
         "id": 19170,
@@ -108,17 +86,6 @@
         "lat": -26.9434232,
         "lng": 153.1485414,
         "typeId": 2
-    },
-    {
-        "id": 7039,
-        "name": "Beachmere",
-        "region": "Sunshine Coast",
-        "state": "QLD",
-        "postcode": "4510",
-        "timeZone": "Australia/Brisbane",
-        "lat": -27.12906,
-        "lng": 153.05226,
-        "typeId": 14
     },
     {
         "id": 6833,
@@ -242,17 +209,6 @@
         "typeId": 2
     },
     {
-        "id": 6871,
-        "name": "Golden Beach",
-        "region": "Sunshine Coast",
-        "state": "QLD",
-        "postcode": "4551",
-        "timeZone": "Australia/Brisbane",
-        "lat": -26.82302,
-        "lng": 153.11987,
-        "typeId": 14
-    },
-    {
         "id": 2459,
         "name": "Umina Beach",
         "region": "Central Coast",
@@ -262,28 +218,6 @@
         "lat": -33.52875,
         "lng": 151.3075,
         "typeId": 2
-    },
-    {
-        "id": 6446,
-        "name": "Mission Beach",
-        "region": "Far North",
-        "state": "QLD",
-        "postcode": "4852",
-        "timeZone": "Australia/Brisbane",
-        "lat": -17.86729,
-        "lng": 146.10716,
-        "typeId": 16
-    },
-    {
-        "id": 6714,
-        "name": "Banksia Beach",
-        "region": "Sunshine Coast",
-        "state": "QLD",
-        "postcode": "4507",
-        "timeZone": "Australia/Brisbane",
-        "lat": -27.0466718,
-        "lng": 153.1334495,
-        "typeId": 14
     },
     {
         "id": 5107,
@@ -416,17 +350,6 @@
         "lat": -33.3468826,
         "lng": 151.5035247,
         "typeId": 2
-    },
-    {
-        "id": 6150,
-        "name": "Bushland Beach",
-        "region": "Northern",
-        "state": "QLD",
-        "postcode": "4818",
-        "timeZone": "Australia/Brisbane",
-        "lat": -19.19459,
-        "lng": 146.67533,
-        "typeId": 16
     },
     {
         "id": 9887,

@@ -1,5 +1,4 @@
 FROM node:8
-
 RUN npm install webpack -g
 
 RUN mkdir /app
@@ -15,7 +14,8 @@ RUN webpack
 ENV NODE_ENV=production
 ENV PORT=3000
 
-
 CMD node app.js
 EXPOSE 3000
+
+
 

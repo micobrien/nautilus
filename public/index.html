@@ -7,8 +7,6 @@
 
     <title>Nautilus</title>
     <link rel="shortcut icon" href="./im/favicon.ico" />
-
-
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/styles.css">
 
@@ -18,23 +16,22 @@
         <div class="card">
             <div class="card-body">
                 <div class="text-center">
+                    <!-- Title Image/Logo -->
                     <img src="./im/nautilus.jpg" class="img-fluid" alt="Responsive image">
                 </div>
                 <h6 class="card-subtitle mb-2 text-muted">Please choose a marine location to begin.</h6>
-                
                 <!--Google map-->
                 <div id="map"></div>
-                <!-- Replace the value of the key parameter with your own API key. -->
-                <script async defer
-                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUuLs1Im_b5BOB4X9TpuLpID4GeMl6rkI&callback=initMap">
-                </script>
+                <!-- Google map -->
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUuLs1Im_b5BOB4X9TpuLpID4GeMl6rkI&callback=initMap"></script>
+                <!-- Powered by Image -->
                 <img src="./im/pwdby.png" class="rounded float-right" alt="Responsive image">
-
             </div>
         </div>
 
     </div>
 
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="./js/build.js"></script>
     <script type="text/javascript" src="./js/bootstrap.min.js"></script>
 </body>
