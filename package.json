@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "concurrently --kill-others \"npm run watch:build\" \"npm run watch:server\"",
+    "dev": "concurrently --kill-others \"npm run watch:server\" \"npm run watch:build\"",
     "start": "npm --parallel watch:server watch:build",
     "watch:build": "webpack --watch",
     "watch:server": "node app.js",
