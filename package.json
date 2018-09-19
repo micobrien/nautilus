@@ -7,7 +7,7 @@
     "dev": "concurrently --kill-others \"npm run watch:build\" \"npm run watch:server\"",
     "start": "npm --parallel watch:server watch:build",
     "watch:build": "webpack --watch",
-    "watch:server": "nodemon app.js",
+    "watch:server": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
