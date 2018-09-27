@@ -11,9 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
 
-app.listen(3000, function() {
-    console.log("Listen to 3000");
-});
+app.listen(3000, '0.0.0.0');
 
 app.post('/weather', function(req, res) {
     addWeatherData(req.body.locid, req.body.locname, req, res);
