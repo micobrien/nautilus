@@ -4,11 +4,13 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "concurrently --kill-others \"npm run watch:server\" \"npm run watch:build\"",
-    "start": "npm --parallel watch:server watch:build",
-    "watch:build": "webpack --watch",
-    "watch:server": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ng": "ng",
+    "webpack": "webpack",
+    "start": "ng serve --host 0.0.0.0",
+    "build": "npm install && ng build --prod",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
   },
   "keywords": [],
   "author": "",
