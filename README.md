@@ -1,1 +1,6 @@
-# nautilus
+# Nautilus
+API Mash-Up and Docker Deployment Project
+
+Nautilus is a service that helps seagoers of all kinds learn about marine weather conditions and wildlife in coastal areas of Australia. Nautilus uses information made available by Willy Weather and the Atlas of Living Australia (ALA) and presents it in an interactive visual map using the Google platform to provide a seamless and intuitive user experience for surfers, divers, fishermen/women, and tourists.
+
+Using Nautilus involves browsing markers that indicate a number of beach locations across Australia and clicking them to be shown an information window containing information that is useful in learning about or informing ones decision on visiting a specific coastal location. The information users are presented with include current weather observations and forecasts for the day with metrics such as temperature, wind, swell, and tides and marine species observations results that have been collected in close proximity in a table of species and sighting counts. The combination of these two areas of information provides a unique insight into potential dangers and opportunities that are important to consider on the biologically diverse and sometimes harsh environment that is the Australian coastline.
