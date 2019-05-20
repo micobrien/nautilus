@@ -34,11 +34,11 @@ When you select a marker an information window will open like this one
 Now you can get the information you want about this location by scrolling down
 
 <p align="center">
-  <img src="public/im/4.png" width="700" alt="Intro">
+  <img src="public/im/4.png" width="400" alt="Intro">
 </p>
 
 <p align="center">
-  <img src="public/im/5.png" width="700" alt="Intro">
+  <img src="public/im/5.png" width="400" alt="Intro">
 </p>
 
 Use this information to stay safe and enjoy our unique coastal environment whatever your activity of choice may be!
@@ -47,7 +47,7 @@ Use this information to stay safe and enjoy our unique coastal environment whate
 Nautilus is a web application that operates using the JavaScript runtime Node.js and the Express web application framework. The application consists of several JavaScript files that are which manage requests and create content for the user using the webpack module bundler. This allowed for easier separation of server and client processing and managing public resources. The front-end of Nautilus was created using the Bootstrap 4 framework for HTML and CSS based design. 
 
 <p align="center">
-  <img src="public/im/filestruc.jpg" width="700" alt="Intro">
+  <img src="public/im/filestruc.jpg" width="600" alt="Intro">
 </p>
 
 ### Client Side
